@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Content Writer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(135deg, #007BFF, #00D4FF);
+            color: white;
+            padding: 50px 20px;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: -30px;
+        }
+        h2 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .portfolio ul {
+            list-style: none;
+            padding: 0;
+        }
+        .portfolio li {
+            margin: 10px 0;
+            background: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .portfolio li:hover {
+            background: #007BFF;
+            color: white;
+        }
+        .portfolio a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 600;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        footer {
+            background: #007BFF;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nadiyah Fajariah Timor</h1>
+        <p>Content Writer | Storyteller</p>
+    </header>
+    
+    <div class="container">
+        <section class="section about">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang mahasiswi semester 2 jurusan psikologi di International Open University yang juga tertarik dalam dunia sosial media, saya memiliki pengalaman volunteer sebagai content writer dan aktif mencari peluang belajar dan pengalaman baru terkait sosial media.</p>
+        </section>
+        
+        <section class="section education">
+            <h2>Riwayat Pendidikan</h2>
+            <p><strong>International Open University</strong> - S1 Psikologi (2024 - Sekarang)</p>
+            <p><strong>MAN 1 Ende</strong> - IPA (2020 - 2023)</p>
+        </section>
+        
+        <section class="section informal-education">
+            <h2>Pendidikan Informal</h2>
+            <p><strong>Kursus Bahasa Arab - Kursus Arab Al-Azhar, Pare Kediri</strong> (Juli 2023)</p>
+            
+        </section>
+        
+        <section class="section experience">
+            <h2>Pengalaman</h2>
+            <p><strong>Content Writer - INAV</strong> (September 2024 - Februari 2025)</p>
+            <p>INAV merupakan salah satu platform psikoedukasi yang menyediakan layanan konseling dan edukasi terkait kesehatan mental. Sebagai content writer saya bertugas menyiapkan skript konten sesuai dengan tema yang diberikan.</p>
+        </section>
+        
+        <section class="section portfolio">
+            <h2>Portofolio</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/reel/C_eW2LchEXd/?igsh=eTVxcHZnNXR4NTd5">Konten afirmasi dan soft selling webinar</a> - Reel instagram ini memberikan afirmasi positif kepada mereka yang sedang dalam fase QLC  sekaligus menawarkan webinar.</li>
+                <li><a href="https://www.instagram.com/p/DByZyoWPuO4/?img_index=3&igsh=MWxyZmU4YWowY2ZldA==">Konten afirmasi dan soft selling webinar</a> - Reel instagram ini memberikan afirmasi positif kepada mereka yang sering membandingkan diri dengan orang lain sekaligus menawarkan kelas.</li>
+                <li><a href="https://www.instagram.com/p/DByZyoWPuO4/?img_index=3&igsh=MWxyZmU4YWowY2ZldA==">Konten hiburan</a> - Feed IG tersebut disusun dengan konses entertain sekaligus memantik rencana resolusi tahun 2025.</li>
+                <li><a href="https://www.instagram.com/reel/DAgGiE4BFw_/?igsh=bWdxNjJlYW14Y3V2">Konten afirmasi "its okay not to be okay"</a> - sharing terkait penerimaan atas kesalahan dan kekurangan diri.(saya juga pemilik suara dari video ini)</li>
+                <li><a href="https://www.instagram.com/reel/DA0k9LtByp3/?igsh=ZnhyaXR2Nnk5dDF5">Cara mengatasi Stress</a> - Konten edukatif terkait cara sederhana mengatasi stress.(saya juga pemilik suara dari video ini)</li>
+            </ul>
+        </section>
+        
+        <section class="section contact">
+            <h2>Kontak</h2>
+            <p>Email: <a href="mailto:nama@email.com">fajrianadia5@gmail.com</a></p>
+            <p>WhatsApp: <a href="https://wa.me/628XXXXXXXXXX">+6285330649618</a></p>
+            <p>Instagram: <a href="#">@nadiyahfajariah</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Nadiyah Fajariah</p>
+    </footer>
+</body>
+</html>
